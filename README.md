@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
-## Docker Build
+## Docker Build Issue
 
 This application demonstrates an issue with a Docker build stalling. To reproduce, run the command:
 
@@ -12,9 +12,8 @@ docker build .
 
 The build will hang at the `RUN npm run build` step.
 
-### Fix
-To fix the error, go to the `angular.json` file
-and change the "analytics" line to `false` 
+### Workaround
+As a workaround, go to the `angular.json` file and change the `"analytics"` line to `false` 
 
 ```json
 ...
