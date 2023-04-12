@@ -16,11 +16,9 @@ The build will hang at the `RUN npm run build` step.
 As a workaround, go to the `angular.json` file and change the `"analytics"` line to `false` 
 
 ```json
-...
 "cli": {
   "analytics": false,
   },
-...
 ```
 
 Problem and fix referenced here: https://stackoverflow.com/questions/75981611/how-do-i-fix-docker-getting-stuck-at-run-npm-run-build-with-angular-15/75999756#75999756
